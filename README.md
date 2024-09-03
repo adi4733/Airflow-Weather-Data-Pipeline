@@ -6,7 +6,9 @@ This Apache Airflow Directed Acyclic Graph (DAG) is designed to extract weather 
 ## The DAG performs the following steps:
 
 **Sensor Check:** Ensures that the weather API is available before attempting to fetch data.
+
 **Data Extraction:** Retrieves weather data from the OpenWeatherMap API.
+
 **Data Transformation and Loading:** Converts the temperature from Kelvin to Fahrenheit, formats the data, and uploads it to an S3 bucket.
 
 
