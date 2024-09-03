@@ -19,6 +19,7 @@ boto3 (if you plan to interact with AWS directly in your environment)
 
 ## Configuration
 **OpenWeatherMap API Key:** Replace the API key placeholder in the extract_weather_data and is_weather_api_ready tasks with your actual OpenWeatherMap API key.
+
 **AWS Credentials:** Configure your AWS credentials for S3 access. Ensure you provide the correct key, secret, and token in the aws_credentials dictionary.
 
 
