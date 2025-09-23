@@ -1,6 +1,6 @@
 # Airflow-Weather-Data-Pipeline
 
-## Overview
+## Summary
 This Apache Airflow Directed Acyclic Graph (DAG) is designed to extract weather data for Portland from the OpenWeatherMap API, transform the data, and load it into an AWS S3 bucket as a CSV file.
 
 ## The DAG performs the following steps:
@@ -34,3 +34,4 @@ PythonOperator Task (transform_load_weather_data): Transforms and loads the weat
 Ensure your Airflow environment is properly configured.
 Place the script in the dags folder of your Airflow setup.
 Trigger the DAG either manually from the Airflow UI or let it run based on its schedule.
+
